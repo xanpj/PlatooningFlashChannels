@@ -71,8 +71,9 @@ Advanced configurations are not presented here.
 ├── lib/ 	                        #libraries
        ├──flash/                        #Flash Channels library from https://github.com/iotaledger/iota.flash.js/ (Heavily modified)
        ├──iota/                         #IOTA JS Library from https://github.com/iotaledger/iota.lib.js/
+├── ..
 ```
 ## OTHER:
-The code in pa_visualizations takes the time measurements performed when running the application code to create process diagrams of the process and barplots of thenative performance of the functions. This will also not be explicated here.
+The code in pa_visualizations uses the time measurements performed when running the application to create process diagrams of the process and barplots of the performance of the native functions. This will not be explicated here.
 
 By Alexander Jagaciak
