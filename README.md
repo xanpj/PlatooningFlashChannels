@@ -56,18 +56,32 @@ Advanced configurations are not presented here.
 
 ## CODE STRUCTURE:
 --channel/ application logic
+
 ------cache.js              stores variables for the application. contains simple functions dependent on the cache content
+
 ------communicationLogic.js application logic of the payment system and communication logic
+
 ------constants.js          constants
+
 ------flashChannel.js       abstraction layer 0 and 1 for making use of the Flash Channels library
+
 ------helpers.js            static helper functions
+
 ------iota.js               iota tangle communication
+
 ------main.js               main. represents mocked vehicle client.
+
 ------presets0.js           preset files
+
 ------...
+
 ------varTemplates.js       template vor variable objects used in the application
+
+
 --lib/ libraries
+
 ------flash/ Flash Channels library from https://github.com/iotaledger/iota.flash.js/ (Heavily modified)
+
 ------iota/ IOTA JS Library from https://github.com/iotaledger/iota.lib.js/
 
 ## OTHER:
