@@ -1,6 +1,8 @@
 # Platooning payment system - Flash Channels
 
 This is a Proof-Of-Concept for a payment system based on IOTA Flash Channels for 2+ participants. The use case resembles a platooning scenario.
+
+In Flash Channel a deposit is payed to a multi-signature address on the tangle. The deposit will be split according to the negotiated amounts in the Flash Channel when closing the channel. The image "ApplicationProcessOverview.png" shows a very abstract overview of the process, excluding the sending of proposal and digests, and the resend logic. 
 The application can be run with up to 6 participants.
 
 ## INSTALL:
@@ -50,6 +52,6 @@ $ nano channel/communicationLogic.js
 const CONSOLE_VERBOSITY = 3
 ```
 
-Advanced configuration is not detailed here.
+Advanced configurations are not presented here.
 
 By Alexander Jagaciak
