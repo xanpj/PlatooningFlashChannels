@@ -58,16 +58,16 @@ Advanced configurations are not presented here.
 ```
 .
 ├── channel/                            #application logic
-│      ├── cache.js       		#stores variables for the application & contains simple functions that dependend on the cache content
-│      ├── communicationLogic.js 	#application logic of the payment system and communication logic
+│      ├── cache.js       		#stores variables for the application & contains simple functions that dependend on the cached variables
+│      ├── communicationLogic.js 	#application logic of the payment system & communication logic
 │      ├── constants.js          	#constants
 │      ├── flashChannel.js       	#two abstraction layers to use the Flash Channels library conveniently
 │      ├── helpers.js            	#static helper functions
 │      ├── iota.js               	#iota tangle communication
-│      ├── main.js               	#main. represents mocked vehicle client.
+│      ├── main.js               	#MAIN - represents mocked vehicle client.
 │      ├── presets0.js           	#preset file
 │      ├── ...          		#preset files
-│      ├── varTemplates.js   	        #template for variable objects used in the application
+│      ├── varTemplates.js   	        #template for cached variables used throughout the application
 ├── lib/ 	                        #libraries
        ├──flash/                        #Flash Channels library from https://github.com/iotaledger/iota.flash.js/ (Heavily modified)
        ├──iota/                         #IOTA JS Library from https://github.com/iotaledger/iota.lib.js/
