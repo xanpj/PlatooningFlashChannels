@@ -1,0 +1,22 @@
+{
+  "name": "flash_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "curl.lib.js": "^1.0.22",
+    "iota.crypto.js": "^0.4.2",
+    "iota.lib.js": "^0.4.7",
+    "mathjs": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+digests in single packages;;
+switch: send digests with bundles OR create digest tree initially;;
+multisig address tree;;
+checkBundleValidity;
+Zusallfsvariable deterministische berechnung wer bundle raussendet;;
+check with closingBundle;;
+if closingBundle. send all signatures immediately.
+resendActivity auf 0, wenn zweiter resend; check if already in a successful resendProcess of a bundle, then of course don't restart resend
+
+use hashmap for looking up packages that were already resend
+check if penalty three times is best solution
+config.flashConfig.signersCount
+(How to handle resend only of digests if bundle was transacted succesfully though)
+garbageCollector for proposals
+(dynamic timing of long phases and short phases)
+(beginning problem with iota funding)
+(more penalty flags)
+If initial phase to long, then create a closingBundle in any way
