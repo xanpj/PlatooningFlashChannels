@@ -57,8 +57,8 @@ Advanced configurations are not presented here.
 ## CODE STRUCTURE:
 ```
 .
-├── channel/ #application logic
-│	   ├── cache.js       		    #stores variables for the application & contains simple functions that dependend on the cache content
+├── channel/                              #application logic
+│	   ├── cache.js       		#stores variables for the application & contains simple functions that dependend on the cache content
 │	   ├── communicationLogic.js 	#application logic of the payment system and communication logic
 │      ├── constants.js          	#constants
 │      ├── flashChannel.js       	#two abstraction layers to use the Flash Channels library conveniently
@@ -66,11 +66,11 @@ Advanced configurations are not presented here.
 │      ├── iota.js               	#iota tangle communication
 │      ├── main.js               	#main. represents mocked vehicle client.
 │      ├── presets0.js           	#preset file
-│      ├── ...          			#preset files
-│      ├── varTemplates.js   		#template for variable objects used in the application
-├── lib/ 	  #libraries
-       ├──flash/ #Flash Channels library from https://github.com/iotaledger/iota.flash.js/ (Heavily modified)
-       ├──iota/ #IOTA JS Library from https://github.com/iotaledger/iota.lib.js/
+│      ├── ...          		#preset files
+│      ├── varTemplates.js   	#template for variable objects used in the application
+├── lib/ 	                     #libraries
+       ├──flash/                   #Flash Channels library from https://github.com/iotaledger/iota.flash.js/ (Heavily modified)
+       ├──iota/                    #IOTA JS Library from https://github.com/iotaledger/iota.lib.js/
 ```
 ## OTHER:
 The code in pa_visualizations takes the time measurements performed when running the application code to create process diagrams of the process and barplots of thenative performance of the functions. This will also not be explicated here.
