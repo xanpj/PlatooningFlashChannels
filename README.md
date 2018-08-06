@@ -24,7 +24,7 @@ $ node main 1 2 2
 
 Start with more participants (in separate terminals):
 ```
-$ node main {id: 0-5} {participant count {2-6} {security level: 1-3}
+$ node main (id: 0-5) (participant count: 2-6) (security level: 1-3)
 ```
 ## CONFIG:
 ### OFFLINE-ONLINE:
