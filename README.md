@@ -76,4 +76,3 @@ Advanced configurations are not presented here.
 ## OTHER:
 The code in pa_visualizations uses the time measurements performed when running the application to create process diagrams of the process and barplots of the performance of the native functions. This will not be explicated here.
 
-By Alexander Jagaciak
